@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddWindow</class>
+ <widget class="QDialog" name="AddWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLabel" name="cityLabel">
+     <property name="text">
+      <string>City:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QLineEdit" name="squareEdit"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="cityEdit"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="latLabel">
+     <property name="text">
+      <string>Latitude:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="squareLabel">
+     <property name="text">
+      <string>Square:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="idEdit"/>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="priceEdit"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="adressEdit"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="idLabel">
+     <property name="text">
+      <string>ID:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="longEdit"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="priceLabel">
+     <property name="text">
+      <string>Price:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="longLabel">
+     <property name="text">
+      <string>Longitude:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="floorLabel">
+     <property name="text">
+      <string>Floor:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="yearLabel">
+     <property name="text">
+      <string>Year:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="roomsLabel">
+     <property name="text">
+      <string>Rooms;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QLineEdit" name="yearEdit"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="floorEdit"/>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLineEdit" name="roomsEdit"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="adressLabel">
+     <property name="text">
+      <string>Adress:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="latEdit"/>
+   </item>
+   <item row="13" column="0" colspan="2">
+    <widget class="QPushButton" name="addButton">
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
